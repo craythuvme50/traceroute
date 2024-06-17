@@ -1,0 +1,8 @@
+{
+    "numberOfDaysToRetainLogs": "30",
+    "frequencyOfCheckingTraceRouteInMinutes": "1440",
+    "port": "33434",
+    "Maximumhop": "25",
+    "protocol": "icmp",
+    "maximum_msg_in_rmq": "100"
+}
