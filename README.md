@@ -9,9 +9,9 @@ Using a Python virtual environment to run the script is strongly recommended.
 # config.json
 The "config.json" file will be generated automatically by the script with default settings if it does not exist. The default settings are shown below:  
 {  
-    "numberOfDaysToRetainLogs": "30",  
-    "frequencyOfCheckingTraceRouteInMinutes": "1440",  
-    "maximum_msg_in_rmq": "10"  
+  "numberOfDaysToRetainLogs": "30",  
+  "frequencyOfCheckingTraceRouteInMinutes": "1440",  
+  "maximum_msg_in_rmq": "10"  
 }  
 
 **numberOfDaysToRetainLogs:**
@@ -30,8 +30,20 @@ It will also be generated automatically by the script with default settings if i
 The default settings are as follows. Before running the script, please adjust the parameters according to your requirements. Also you can add more destinations in this file.  
 
 [  
-    {"destination": "bql-sha-association01.asia.apple.com", "protocols": ["icmp", "udp"], "tcp_port": "80", "udp_port": "33434", "maximum_hop": "30"},  
-    {"destination": "bql-sha-ocvi01.asia.apple.com", "protocols": ["icmp", "udp", "tcp"], "tcp_port": "80", "udp_port": "33434", "maximum_hop": "30"}  
+    {
+      "destination": "bql-sha-association01.asia.apple.com", 
+      "protocols": ["icmp", "udp"], 
+      "tcp_port": "80", 
+      "udp_port": "33434", 
+      "maximum_hop": "30"
+      },  
+    {  
+      "destination": "bql-sha-ocvi01.asia.apple.com", 
+      "protocols": ["icmp", "udp", "tcp"], 
+      "tcp_port": "80", 
+      "udp_port": "33434", 
+      "maximum_hop": "30"
+      }  
 ]
 
 
