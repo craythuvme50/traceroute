@@ -1,0 +1,23 @@
+[
+    "destination1": {
+        "destination": "bql-sha-association01.asia.apple.com",
+        "protocols": [
+            "icmp",
+            "udp"
+        ],
+        "tcp_port": "80",
+        "udp_port": "33434",
+        "maximum_hop": "30"
+    },
+    "destination2": {
+        "destination": "bql-sha-ocvi01.asia.apple.com",
+        "protocols": [
+            "icmp",
+            "udp",
+            "tcp"
+        ],
+        "tcp_port": "80",
+        "udp_port": "33434",
+        "maximum_hop": "30"
+    }
+]
