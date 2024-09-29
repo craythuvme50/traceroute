@@ -38,7 +38,7 @@ The default settings are as follows. Before running the script, please adjust th
 &emsp;&emsp;"maximum_hop": "30"  
 &emsp;&emsp;},  
 &emsp;{  
--&emsp;&emsp;"destination": "bql-sha-ocvi01.asia.apple.com",  
+&emsp;&emsp;"destination": "bql-sha-ocvi01.asia.apple.com",  
 &emsp;&emsp;"protocols": ["icmp", "udp", "tcp"],  
 &emsp;&emsp;"tcp_port": "80",  
 &emsp;&emsp;"udp_port": "33434",  
